@@ -51,7 +51,7 @@ impl Calculator {
                     parens.push(c);
                 }
                 ')' => {
-                    tokens.push(Token::Bracket('('));
+                    tokens.push(Token::Bracket(')'));
 
                     if let Some(p) = parens.pop() {
                         if p != '(' {
