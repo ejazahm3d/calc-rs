@@ -1,7 +1,7 @@
 use calc::{CalcError, Calculator};
 
 fn main() -> Result<(), CalcError> {
-    println!("Hello, world!");
+    println!("\nHello, world! Write any mathematical expression\n");
 
     loop {
         let mut input = String::new();
